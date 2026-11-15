@@ -9,7 +9,7 @@ if (!uri && process.env.NODE_ENV === "production") {
   console.error("MONGODB_URI is missing in production!");
 }
 
-
+// Vercel বিল্ডের সময় ক্র্যাশ এড়াতে ফলব্যাক
 const client = new MongoClient(uri || "mongodb://localhost:27017/dummy", {
   serverSelectionTimeoutMS: 5000,
 });
