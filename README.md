@@ -39,12 +39,11 @@ OAuth callback URLs:
 http://localhost:3000/api/auth/callback/google and /github
 https://YOUR-DOMAIN/api/auth/callback/google and /github
 
-### Deploying to Vercel
+Deploying to Vercel
 
 1. Push the repo to GitHub and import it in Vercel.
-2. Add every variable from `.env.example`, setting `BETTER_AUTH_URL` and `NEXT_PUBLIC_APP_URL` to your Vercel URL.
-3. Deploy. Dynamic routes (`/category/[slug]`, `/product/[slug]`) are server-rendered, so refreshing never gives a hard 404.
+2. Add every variable from .env.example, setting BETTER_AUTH_URL and NEXT_PUBLIC_APP_URL to your Vercel URL.
+3. Deploy. Dynamic routes (/category/[slug], /product/[slug]) are server-rendered, so refreshing never gives a hard 404.
+   If the API fields differ
 
-## If the API fields differ
-
-The API field names are not documented, so `src/lib/api.ts` reads each value from several likely keys (for example `price`, `todayPrice`, `change`, `changePercent`). Open `/products` and `/products/1` in your browser; if a key differs, add it to the matching list in `normalizeProduct`.
+The API field names are not documented, so src/lib/api.ts reads each value from several likely keys (for example price, todayPrice, change, changePercent). Open /products and /products/1 in your browser; if a key differs, add it to the matching list in normalizeProduct.
