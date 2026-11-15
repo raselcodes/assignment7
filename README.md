@@ -2,7 +2,7 @@
 
 প্রয়োজনীয় পণ্যের দাম এক নজরে। BazarDor shows today's market prices for everyday goods in Bangladesh, with Bengali numerals, daily price changes and market-wise comparisons.
 
-**Live:** _add your link_ · **Repo:** _add your link_
+Live: _add your link_ · Repo: _add your link_
 
 ## Technologies
 
