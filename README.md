@@ -46,4 +46,4 @@ Deploying to Vercel
 3. Deploy. Dynamic routes (/category/[slug], /product/[slug]) are server-rendered, so refreshing never gives a hard 404.
    If the API fields differ
 
-The API field names are not documented, so src/lib/api.ts reads each value from several likely keys (for example price, todayPrice, change, changePercent). Open /products and /products/1 in your browser; if a key differs, add it to the matching list in normalizeProduct.
+The API field names are not documented, so src/lib/api.ts reads each value from several likely keys (for example price, todayPrice, change, changePercent). Open /products and /products/1 in your browser; if a key differs, add it to the matching list in normaliz
