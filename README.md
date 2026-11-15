@@ -1,4 +1,4 @@
-# 🛒 বাজার দর (BazarDor)
+🛒 বাজার দর (BazarDor)
 
 প্রয়োজনীয় পণ্যের দাম এক নজরে। BazarDor shows today's market prices for everyday goods in Bangladesh, with Bengali numerals, daily price changes and market-wise comparisons.
 
@@ -37,6 +37,7 @@ Open http://localhost:3000.
 See `.env.example`. You need a MongoDB Atlas connection string (allow `0.0.0.0/0` under Network Access for Vercel) and a long random `BETTER_AUTH_SECRET`. Google and GitHub keys are optional; the buttons show an error toast until you add them.
 
 OAuth callback URLs:
+
 - `http://localhost:3000/api/auth/callback/google` and `/github`
 - `https://YOUR-DOMAIN/api/auth/callback/google` and `/github`
 
