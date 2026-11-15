@@ -2,9 +2,8 @@
 
 প্রয়োজনীয় পণ্যের দাম এক নজরে। BazarDor shows today's market prices for everyday goods in Bangladesh, with Bengali numerals, daily price changes and market-wise comparisons.
 
-Live: _add your link_ · Repo: _add your link_
-
-## Technologies
+Live: add your link · Repo: \_add your link
+Technologies
 
 - Next.js (App Router) and TypeScript
 - Tailwind CSS v4 and DaisyUI 5
@@ -12,7 +11,7 @@ Live: _add your link_ · Repo: _add your link_
 - react-hot-toast
 - Hosted on Vercel
 
-## Key features
+Key features
 
 1. **Live price ticker**: an infinite, pause-on-hover marquee with emoji, price per unit and a ▲/▼ change badge.
 2. **Risers and fallers**: the top 6 products whose price rose and fell today, plus a full product grid.
