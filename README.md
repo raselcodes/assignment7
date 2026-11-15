@@ -30,14 +30,14 @@ npm run dev
 
 Open http://localhost:3000.
 
-### Environment variables
+Environment variables
 
-See `.env.example`. You need a MongoDB Atlas connection string (allow `0.0.0.0/0` under Network Access for Vercel) and a long random `BETTER_AUTH_SECRET`. Google and GitHub keys are optional; the buttons show an error toast until you add them.
+See .env.example. You need a MongoDB Atlas connection string (allow 0.0.0.0/0 under Network Access for Vercel) and a long random BETTER_AUTH_SECRET`. Google and GitHub keys are optional; the buttons show an error toast until you add them.
 
 OAuth callback URLs:
 
-- `http://localhost:3000/api/auth/callback/google` and `/github`
-- `https://YOUR-DOMAIN/api/auth/callback/google` and `/github`
+http://localhost:3000/api/auth/callback/google and /github
+https://YOUR-DOMAIN/api/auth/callback/google and /github
 
 ### Deploying to Vercel
 
