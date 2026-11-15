@@ -18,7 +18,7 @@ Key features
 3. Bengali-first: Bengali digits, Bangla date in the navbar, and numeric (not string) price sorting.
 4. Category pages: sort by default, low to high or high to low; skeleton loading and a friendly empty/404 state.
 5. **Protected product details**: min, max and average price plus market-wise prices, visible only after sign in.
-6. **Authentication**: email/password, Google and GitHub sign in, toasts for every outcome, profile page and name update.
+6. Authentication: email/password, Google and GitHub sign in, toasts for every outcome, profile page and name update.
 7. **Responsive**: mobile, tablet and desktop layouts, including a scrollable category row on small screens.
 
 ## Getting started
